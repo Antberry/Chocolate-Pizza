@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
   <title>Delicious Pizza</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
 </head>
 <body>
   <header>
     <!-- logo -->
+    <nav>
     <a href=" ">
       <img class="logo-block" src="img/logo.png">
     </a> 
@@ -14,7 +18,7 @@
       <li>THE BEST FOOD BLOG ON THE WEB</li>
     </ul>
     <!-- icon bar -->
-    <ul id="iconbar">
+    <ul id="icon-bar">
       <li>
         <a href=" ">
           <img src='img/fb-icon.png' />
@@ -56,18 +60,19 @@
         </a>
       </li>
     </ul>
+  </nav>
     <hr>
   </header>
 
   <main>
     <!-- chocolate Pizza title -->
     <article>
-      <ul>
+      <ul id="headline">
         <li>Chocolate Pizza</li>
         <li>POSTED ON 15 DEC 2013/DESSERTS</li>
       </ul>
       <!-- print icon -->
-      <ul>
+      <ul id="print">
           <li>
             <a href=" ">
               <img src='img/print-icon.png' />
@@ -76,22 +81,40 @@
           <li>PRINT</li>
       </ul>
       <!-- hero image -->
-      <img src="img/choco-pizza.png">
+      <img id="hero" src="img/choco-pizza.png">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis vestibulum diam, et rutrum tortor. Fusce quis dui ac est sollicitudin dictum id vel felis. Ut venenatis lorem enim, a tempus eros rutrum eget. Etiam id mauris et lacus congue sodales. Fusce sem arcu, dignissim sed vehicula at, lobortis nec nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a turpis justo. Donec accumsan ex odio, a varius metus molestie in. In feugiat lacus in velit hendrerit, nec maximus tellus feugiat.
-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis vestibulum diam, et rutrum tortor. Fusce quis dui ac est sollicitudin dictum id vel felis. Ut venenatis lorem enim, a tempus eros rutrum eget. Etiam id mauris et lacus congue sodales. Fusce sem arcu, dignissim sed vehicula at, lobortis nec nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a turpis justo. Donec accumsan ex odio, a varius metus molestie in. In feugiat lacus in velit hendrerit, nec maximus tellus feugiat.</br></br>
+      
+        Curabitur egestas nunc a arcu placerat mollis. Morbi vestibulum velit et nisl blandit sodales. Suspendisse potenti. Donec est massa, mollis sit amet augue at, sollicitudin suscipit felis. Aliquam ut enim enim. Nulla neque dolor, tempor vitae scelerisque non, aliquam vitae nisl. Duis nisi lorem, laoreet id imperdiet eget, congue tempor justo. Curabitur commodo velit vel ex venenatis lobortis. Duis dictum consectetur aliquet. Quisque pretium purus eget fermentum condimentum. Etiam posuere enim finibus, accumsan velit ut, interdum erat. Phasellus ac lorem vitae nibh ultricies mattis. Pellentesque at massa ullamcorper, gravida neque nec, rhoncus urna.</br></br>
+      
         Curabitur egestas nunc a arcu placerat mollis. Morbi vestibulum velit et nisl blandit sodales. Suspendisse potenti. Donec est massa, mollis sit amet augue at, sollicitudin suscipit felis. Aliquam ut enim enim. Nulla neque dolor, tempor vitae scelerisque non, aliquam vitae nisl. Duis nisi lorem, laoreet id imperdiet eget, congue tempor justo. Curabitur commodo velit vel ex venenatis lobortis. Duis dictum consectetur aliquet. Quisque pretium purus eget fermentum condimentum. Etiam posuere enim finibus, accumsan velit ut, interdum erat. Phasellus ac lorem vitae nibh ultricies mattis. Pellentesque at massa ullamcorper, gravida neque nec, rhoncus urna.
-
       </p>
       <!-- piece of paper -->
-      <img src="img/list-bg.png">
+      <div>
+      <ul>
+        <li>1 1/2 cups milk</li>
+        <li>1/2 cup mascarpone</li>
+        <li>1/2 tsp pink salt</li>
+        <li>1 lb Black Mission Figs</li>
+        <li>1/2 cup brown sugar</li>
+        <li>2-4 tbsp water</li>
+      </ul>
+      <ul>
+          <li>1 1/2 cups heavy cream</li>
+          <li>1/3 granulated sugar</li>
+          <li>2 egg yolks</li>
+          <li>1 lemon, juiced</li>
+          <li>2 tbsp butter</li>
+          <li>1 cup honey roasted pecans, roughly chopped</li>
+        </ul>
+      </div>
       <hr>
       <!-- vanessa image -->
-      <a href=" ">
-        <img src='img/van-pic.png' />
+      <a href="">
+        <img class="logo-block" src='img/van-pic.png' />
       </a>
-      <ul>
-        <li>
+      <ul class="logo-block ">
+        <li >
           Vanessa Stevenson
         </li>
         <li>
@@ -104,7 +127,7 @@
   <footer>
     <hr>
     <img src="img/small-logo.png">
-    <hr>
+    <hr id="lasthr">
     <ul>
       <li>Delicious C 2013 . All Rights Reserved.</li>
       <li>Proudly publised with Ghost.</li>
